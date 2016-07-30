@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamaño_horizontal_textinput">210dp</dimen>
+    <dimen name="tamaño_horizontal_textinput_descripcion">250dp</dimen>
+    <dimen name="margin_top_textinput">15dp</dimen>
+    <dimen name="tamaño_texto">14dp</dimen>
+    <dimen name="tamaño_horizontal_boton_fecha">170dp</dimen>
+    <dimen name="tamaño_vertical_boton_fecha">60dp</dimen>
+</resources>

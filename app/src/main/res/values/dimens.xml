@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tamaño_horizontal_textinput">245dp</dimen>
+    <dimen name="tamaño_horizontal_textinput_descripcion">305dp</dimen>
+    <dimen name="margin_top_textinput">30dp</dimen>
+    <dimen name="tamaño_texto">16dp</dimen>
+    <dimen name="tamaño_horizontal_boton_fecha">175dp</dimen>
+    <dimen name="tamaño_vertical_boton_fecha">60dp</dimen>
+</resources>

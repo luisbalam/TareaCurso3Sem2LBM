@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearPrincipal"
+    tools:context="com.luisbalam.tareacurso3sem2lb.MainActivity">
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/tamaño_horizontal_textinput"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLayout1"
+        android:hint="@string/nombre"
+        android:textColorHint="@color/colorHint"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_textinput">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText1"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textSize="@dimen/tamaño_texto"
+            android:inputType="textPersonName"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tamaño_vertical_boton_fecha"
+        android:id="@+id/botonFecha"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_textinput"
+        android:theme="@style/BotonSiguiente"
+        android:text="@string/fecha_nacimiento"
+        android:onClick="presionarBotonFecha"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/tamaño_horizontal_textinput"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLayout2"
+        android:hint="@string/telefono"
+        android:textColorHint="@color/colorHint"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_textinput">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText2"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textSize="@dimen/tamaño_texto"
+            android:inputType="phone"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/tamaño_horizontal_textinput"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLayout3"
+        android:hint="@string/email"
+        android:textColorHint="@color/colorHint"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_textinput">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText3"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textSize="@dimen/tamaño_texto"
+            android:inputType="textEmailAddress"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/tamaño_horizontal_textinput_descripcion"
+        android:layout_height="wrap_content"
+        android:id="@+id/textLayout4"
+        android:hint="@string/descripcion_contacto"
+        android:textColorHint="@color/colorHint"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_textinput">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText4"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textSize="@dimen/tamaño_texto"
+            android:inputType="text"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonSiguiente"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/siguiente"
+            android:textStyle="bold"
+            android:theme="@style/BotonSiguiente"
+            android:onClick="presionarBotonSiguiente"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

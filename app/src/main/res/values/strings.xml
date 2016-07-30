@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tarea3Sem2LB</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion_contacto">Descripción Contacto</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="guardar_fecha">CONFIRMAR Y GUARDAR FECHA</string>
+    <string name="fecha_nacimiento">Seleccionar fecha</string>
+    <string name="fecha">Fecha</string>
+    <string name="confirmacion_datos">CONFIRMAR DATOS</string>
+    <string name="editar_datos">EDITAR DATOS</string>
+    <string name="dia_nacimiento">Dia de Nacimiento</string>
+    <string name="mes_nacimiento">Mes de Nacimiento</string>
+    <string name="año_nacimiento">Año de Nacimiento</string>
+    <string name="contador">contador</string>
+    <string name="mensaje_snackbar">Debes ingresar todos los datos!</string>
+</resources>
